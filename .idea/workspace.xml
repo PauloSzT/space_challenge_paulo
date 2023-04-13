@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d96552-5752-4922-b269-2c7396dc030c" name="Changes" comment="feat: Implement loadU1 and loadU2 methods in Simulation">
+    <list default="true" id="43d96552-5752-4922-b269-2c7396dc030c" name="Changes" comment="feat: Implement runSimulation method in Simulation class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Simulation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Simulation.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +64,12 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/kotlin/models" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,13 +100,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681355476156</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="feat: Implement runSimulation method in Simulation class">
+      <created>1681404069980</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681404069980</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement project boilerplate" />
     <MESSAGE value="feat: Implement method loadItems in Simulation Class,&#10;      Add Phase-1 and Phase-2 files" />
     <MESSAGE value="feat: Implement loadU1 and loadU2 methods in Simulation" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement loadU1 and loadU2 methods in Simulation" />
+    <MESSAGE value="feat: Implement runSimulation method in Simulation class" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement runSimulation method in Simulation class" />
   </component>
 </project>
