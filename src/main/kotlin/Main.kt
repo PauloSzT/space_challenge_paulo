@@ -2,13 +2,13 @@ import models.Rocket
 import models.Simulation
 
 fun main() {
-    val main: Main = Main()
+    val main = Main()
     main.runAllSimulations()
 }
 
 class Main {
     fun runAllSimulations() {
-        val simulation: Simulation = Simulation()
+        val simulation = Simulation()
         val simulationLoadedItemsPhase1 = simulation.loadItems("src/main/resources/Phase-1.txt")
         val simulationLoadedItemsPhase2 = simulation.loadItems("src/main/resources/Phase-2.txt")
         val u1rocketFleetFinal =
