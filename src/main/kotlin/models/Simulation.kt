@@ -24,6 +24,7 @@ open class Simulation {
                 rocket.carry(item)
             }
         }
+        u1RocketsFleet.add(rocket)
         return u1RocketsFleet
     }
 
@@ -39,22 +40,30 @@ open class Simulation {
                 rocket.carry(item)
             }
         }
+        u2RocketsFleet.add(rocket)
         return u2RocketsFleet
     }
 
     fun runSimulation(rockets: ArrayList<Rocket>): Int {
+        var rocketId = 0
         var totalBudget = 0
         fun tryLaunch(rocket: Rocket) {
+            rocketId++
             totalBudget += rocket.cost
             if (rocket.launch()) {
                 if (!rocket.landing()) {
+                    println("Rocket $rocketId failed on landing")
                     tryLaunch(rocket)
+                }else{
+                    println("Rocket $rocketId landed Complete with:")
+                    rocket.storage.forEach{item -> println(item.name)}
                 }
             } else {
+                println("Rocket $rocketId failed on launch")
                 tryLaunch(rocket)
             }
         }
-        rockets.forEach { rocket -> tryLaunch(rocket) }
+        rockets.forEach { rocket -> tryLaunch(rocket)}
         return totalBudget.times(1000000)
     }
 }
