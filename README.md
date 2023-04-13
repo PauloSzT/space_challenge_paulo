@@ -1,6 +1,6 @@
 # Space Challenge Kotlin
 
-Application to display to simulate a Space Mission
+Application to simulate a Space Mission
 
 ### Platform
 - ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
