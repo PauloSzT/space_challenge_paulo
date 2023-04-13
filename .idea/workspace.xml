@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43d96552-5752-4922-b269-2c7396dc030c" name="Changes" comment="feat: Implement U1 and U2 Rockets Classes">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/Simulation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Phase-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Phase-2.txt" afterDir="false" />
+    <list default="true" id="43d96552-5752-4922-b269-2c7396dc030c" name="Changes" comment="feat: Implement method loadItems in Simulation Class,&#10;      Add Phase-1 and Phase-2 files">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/Simulation.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/Simulation.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/U1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/U1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/models/U2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/models/U2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +81,19 @@
       <option name="project" value="LOCAL" />
       <updated>1681245469847</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Implement method loadItems in Simulation Class,&#10;      Add Phase-1 and Phase-2 files">
+      <created>1681313942624</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681313942624</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Implement project boilerplate" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implement project boilerplate" />
+    <MESSAGE value="feat: Implement method loadItems in Simulation Class,&#10;      Add Phase-1 and Phase-2 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Implement method loadItems in Simulation Class,&#10;      Add Phase-1 and Phase-2 files" />
   </component>
 </project>

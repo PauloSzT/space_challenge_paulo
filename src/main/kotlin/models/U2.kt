@@ -1,11 +1,11 @@
 package models
 
 class U2 : Rocket(
-    maxWeight = 29,
-    cost = 100,
-    weight = 10,
-    chanceToExplodeOnLaunch = 0.05,
-    chanceToExplodeOnLand = 0.01
+    maxWeight = 29000,
+    cost = 120,
+    weight = 18000,
+    chanceToExplodeOnLaunch = 0.04,
+    chanceToExplodeOnLand = 0.08
 ) {
     override fun launch(): Boolean {
         val randomNumber: Float = (0..100).random().toFloat()

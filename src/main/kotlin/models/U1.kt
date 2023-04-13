@@ -1,9 +1,9 @@
 package models
 
 class U1 : Rocket(
-    maxWeight = 29,
+    maxWeight = 18000,
     cost = 100,
-    weight = 10,
+    weight = 10000,
     chanceToExplodeOnLaunch = 0.05,
     chanceToExplodeOnLand = 0.01
 ) {
